@@ -1,0 +1,26 @@
+package com.product;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+@Service
+public class ProductService {
+
+	@Autowired
+	ProductRepository orderRepository;
+	
+	@Autowired
+	RestTemplate restTemplate;
+	
+	public void saveOrder(ProductVO order) {
+		orderRepository.save(order);
+		restTemplate.getForEntity("http://EMAIL-SERVICE/email", String.class);
+	}
+	
+	public List<ProductVO> getOrders() {
+		return orderRepository.findAll();
+	}
+}

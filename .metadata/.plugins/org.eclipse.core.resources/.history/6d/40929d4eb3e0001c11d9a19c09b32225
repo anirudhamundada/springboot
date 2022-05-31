@@ -1,0 +1,20 @@
+package com.product;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ProductController {
+
+	@Autowired
+	ProductService service;
+	
+	@PostMapping("product")
+	public void saveProduct(@Valid @RequestBody ProductVO product) {
+		service.saveProduct(product);
+	}
+}

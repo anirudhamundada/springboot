@@ -1,0 +1,13 @@
+package com.product;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ProductController {
+
+	@PostMapping("product")
+	public void saveProduct() {
+		
+	}
+}

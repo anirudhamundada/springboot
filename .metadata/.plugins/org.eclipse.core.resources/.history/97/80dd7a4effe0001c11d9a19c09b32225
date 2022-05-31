@@ -1,0 +1,35 @@
+package com.product;
+
+import java.util.List;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ProductController {
+
+	@Autowired
+	ProductService service;
+	
+	@PostMapping("product")
+	public void saveProduct(@Valid @RequestBody ProductVO product) {
+		service.saveProduct(product);
+	}
+	
+	@GetMapping("product/{id}")
+	public ProductVO getProductById(@PathVariable int id) {
+		System.out.println("id"+ id);
+		return service.getProduct(id);
+	}
+	
+	@GetMapping("product/{name}")
+	public List<ProductVO> findProductById(@PathVariable String name) {
+		return service.findByProductId(name);
+	}
+}
