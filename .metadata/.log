@@ -4045,3 +4045,269 @@ java.lang.NullPointerException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 12:05:07.778
 !MESSAGE executing callback sts4.classpath.dextCdEu SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:08:39.957
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:08:39.957
+!MESSAGE buffering callback sts4.classpath.dextCdEu ribbon-client true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:08:39.958
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:08:39.958
+!MESSAGE buffering callback sts4.classpath.dextCdEu ribbon-eureka-server true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:08:39.958
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:08:39.960
+!MESSAGE buffering callback sts4.classpath.dextCdEu ribbon-server true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:08:39.961
+!MESSAGE executing callback sts4.classpath.dextCdEu 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:08:39.970
+!MESSAGE executing callback sts4.classpath.dextCdEu SUCCESS [done]
+
+!ENTRY org.eclipse.core.resources 4 2 2022-06-03 11:08:39.973
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LSPEclipseUtils.toWorkspaceFolder(LSPEclipseUtils.java:790)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:507)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.lsp4e.LanguageServerWrapper.toWorkspaceFolderEvent(LanguageServerWrapper.java:501)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:170)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:575)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:10:05.067
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:10:05.069
+!MESSAGE classpath=60 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:10:05.071
+!MESSAGE buffering callback sts4.classpath.dextCdEu SpringBootDemo false 60
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:10:05.071
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:10:05.072
+!MESSAGE classpath=60 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:10:05.074
+!MESSAGE buffering callback sts4.classpath.dextCdEu sender false 60
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:10:05.074
+!MESSAGE executing callback sts4.classpath.dextCdEu 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:10:05.079
+!MESSAGE executing callback sts4.classpath.dextCdEu SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:21:23.240
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:21:23.240
+!MESSAGE buffering callback sts4.classpath.dextCdEu SpringBootDemo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:21:23.240
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:21:23.241
+!MESSAGE classpath=6 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:21:23.241
+!MESSAGE buffering callback sts4.classpath.dextCdEu receiver false 6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:21:23.241
+!MESSAGE executing callback sts4.classpath.dextCdEu 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:21:23.249
+!MESSAGE executing callback sts4.classpath.dextCdEu SUCCESS [done]
+
+!ENTRY org.eclipse.core.resources 4 2 2022-06-03 11:21:23.260
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LSPEclipseUtils.toWorkspaceFolder(LSPEclipseUtils.java:790)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:507)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.lsp4e.LanguageServerWrapper.toWorkspaceFolderEvent(LanguageServerWrapper.java:501)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:170)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:575)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:21:24.033
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:21:24.035
+!MESSAGE classpath=60 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:21:24.036
+!MESSAGE buffering callback sts4.classpath.dextCdEu receiver false 60
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:21:24.036
+!MESSAGE executing callback sts4.classpath.dextCdEu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:21:24.040
+!MESSAGE executing callback sts4.classpath.dextCdEu SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:44:46.570
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:44:46.576
+!MESSAGE classpath=139 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:44:46.579
+!MESSAGE buffering callback sts4.classpath.dextCdEu order-service false 139
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:44:46.580
+!MESSAGE executing callback sts4.classpath.dextCdEu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:44:46.591
+!MESSAGE executing callback sts4.classpath.dextCdEu SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:45:02.559
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:45:02.563
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:45:02.566
+!MESSAGE buffering callback sts4.classpath.dextCdEu email-service false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:45:02.568
+!MESSAGE executing callback sts4.classpath.dextCdEu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:45:02.576
+!MESSAGE executing callback sts4.classpath.dextCdEu SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-03 11:45:37.235
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:46:28.216
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:46:28.221
+!MESSAGE classpath=148 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:46:28.224
+!MESSAGE buffering callback sts4.classpath.dextCdEu order-service false 148
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:46:28.224
+!MESSAGE executing callback sts4.classpath.dextCdEu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:46:28.235
+!MESSAGE executing callback sts4.classpath.dextCdEu SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:53:42.265
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:53:42.271
+!MESSAGE classpath=124 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:53:42.274
+!MESSAGE buffering callback sts4.classpath.dextCdEu config-service false 124
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:53:42.274
+!MESSAGE executing callback sts4.classpath.dextCdEu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 11:53:42.290
+!MESSAGE executing callback sts4.classpath.dextCdEu SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-03 12:03:57.410
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-03 12:31:07.183
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 12:37:41.829
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 12:37:41.836
+!MESSAGE classpath=129 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 12:37:41.839
+!MESSAGE buffering callback sts4.classpath.dextCdEu eureka-service false 129
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 12:37:41.840
+!MESSAGE executing callback sts4.classpath.dextCdEu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 12:37:41.869
+!MESSAGE executing callback sts4.classpath.dextCdEu SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 12:41:17.422
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 12:41:17.427
+!MESSAGE classpath=128 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 12:41:17.430
+!MESSAGE buffering callback sts4.classpath.dextCdEu email-service false 128
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 12:41:17.431
+!MESSAGE executing callback sts4.classpath.dextCdEu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-03 12:41:17.436
+!MESSAGE executing callback sts4.classpath.dextCdEu SUCCESS [done]

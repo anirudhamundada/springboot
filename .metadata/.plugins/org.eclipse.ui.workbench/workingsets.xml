@@ -2,11 +2,6 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653884852569_0" label="Java Main Sources" name="Java Main Sources"/>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653884852616_1" label="Java Test Sources" name="Java Test Sources"/>
-<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1654151704074_3" label="spring-boot-ribbon" name="spring-boot-ribbon">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-boot-ribbon" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ribbon-client" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ribbon-server" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ribbon-eureka-server" type="4"/>
-</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1654151704074_3" label="spring-boot-ribbon" name="spring-boot-ribbon"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653884856371_2" label="Window Working Set" name="Aggregate for window 1653884856371"/>
 </workingSetManager>
